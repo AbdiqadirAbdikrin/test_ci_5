@@ -22,9 +22,8 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: ./Week18_Task_Management_NodeJS
+          node-version: 2o
+          
 
       - name: Install dependencies
         run: npm ci
